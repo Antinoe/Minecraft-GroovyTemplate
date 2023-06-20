@@ -1,0 +1,18 @@
+{
+  "packName": "Groovy Template",
+  "packId": "groovy",
+  "version": "1.0.0",
+  "debug": true,
+  "classes": [
+    "classes/"
+  ],
+  "loaders": {
+    "preInit": [
+      "classes/",
+      "preInit/"
+    ],
+    "postInit": [
+      "postInit/"
+    ]
+  }
+}
